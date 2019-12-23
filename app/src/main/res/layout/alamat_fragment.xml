@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/data_pribadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="40dp"
+        android:text="gunakan data pribadi" />
+
+    <EditText
+        android:id="@+id/input_alamat"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Alamat"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/input_alamat2"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="tambahan keterangan alamat"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/input_bank"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Pilih Bank"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/input_norek"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="No Rekening"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/input_tgl"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Tanggal Penjemputan"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/input_jam"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Jam Penjemputan"
+        android:inputType="datetime"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+</LinearLayout>

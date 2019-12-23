@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/hallo"
+        android:textColor="#E26262"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayo Pilih Tempat Donasi"
+        android:textColor="#5555"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/input_tempatdonasi"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Tujuan tempat donasi"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_baranguang2"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Isi Alamat Lengkap"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/input_alamatdonasi"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="Alamat tempat donasi"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/input_alamatdonasi2"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Keterangan Lain (No, lantai)"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+</LinearLayout>

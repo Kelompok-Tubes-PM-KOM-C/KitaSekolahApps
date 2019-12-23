@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">KITA SEKOLAH</string>
+    <string name="next">Next</string>
+    <string name="siapa_nama_kamu">Siapa Nama Kamu?</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="mulai">Mulai</string>
+    <string name="hallo">Hallo Hanna!</string>
+    <string name="apa_yang_kamu_butuhkan">Apa yang kamu butuhkan?</string>
+    <string name="tas">Tas</string>
+    <string name="baju">Baju Seragam</string>
+    <string name="sepatu">Sepatu</string>
+    <string name="buku">Buku</string>
+    <string name="todo1">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="_897_500">897.500</string>
+    <string name="anak_indonesia_tidak_sekolah_karena_biaya">Anak Indonesia tidak sekolah karena biaya</string>
+
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+    <string name="btn_donasi">Donasi</string>
+    <string name="kita_sekolah">KITA SEKOLAH</string>
+    <string name="donasi_jual_barang">DONASI/JUAL BARANG</string>
+    <string name="daftar_favorit">DAFTAR FAVORIT</string>
+
+</resources>
