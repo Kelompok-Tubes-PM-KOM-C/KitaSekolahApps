@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:2:1-47:12
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\da95ffa5303229b21124ff07d5e27b01\material-1.1.0-alpha10\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\37ec02f661e3547c5499ecdfd9f3cd1f\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b5fa044729524827998e74ee2c6bf618\viewpager2-1.0.0-beta03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\add2bdb41de46d90e5d3bd4e75929820\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dd07e922b5233b833d82ee834e6becf7\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f394ee478b4ec1dcbbf5ae71b3314faa\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\80b2360a587be5f7a2d6fa8510bd68ae\transition-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\daa47187fb0f0a7c419d1b10e1677cdd\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\beed28e19d4f55ab2c17aff66e0bc400\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e0d80e5c178a0db065288a448fc598ef\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3172aa59c57a5da0079730ae808b7b8\recyclerview-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0554424e228349ffc3db0700d1324aa1\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bad233a64070d55cab9a83b26afbf154\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7acef2a7bfef3795312317efec15d83e\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+		INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:2:1-47:12
+		INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:5:5-7:35
+	android:required
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:6:9-47
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:9:5-11:38
+	android:maxSdkVersion
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:11:9-35
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:10:9-65
+application
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:13:5-45:19
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\da95ffa5303229b21124ff07d5e27b01\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\da95ffa5303229b21124ff07d5e27b01\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:17:9-54
+	android:icon
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:19:9-40
+activity#com.example.kita_sekolah.lab_scroll
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:20:9-57
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:20:19-45
+activity#com.example.kita_sekolah.halaman_donasi_uang
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:21:9-57
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:21:19-54
+activity#com.example.kita_sekolah.halaman_pilihDonasi
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:22:9-57
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:22:19-54
+activity#com.example.kita_sekolah.halaman_beli
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:23:19-47
+activity#com.example.kita_sekolah.halaman_donasi
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:24:9-52
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:24:19-49
+activity#com.example.kita_sekolah.halaman_utama
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:25:9-51
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:25:19-48
+activity#com.example.kita_sekolah.start2_activity
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:26:9-53
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:26:19-50
+activity#com.example.kita_sekolah.start1_activity
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:27:9-53
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:27:19-50
+activity#com.example.kita_sekolah.MainActivity
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:28:9-34:20
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:28:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:32:27-74
+provider#androidx.core.content.FileProvider
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:38:13-67
+	android:exported
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:37:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:41:13-43:54
+	android:resource
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:43:17-51
+	android:name
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:42:17-67
+uses-sdk
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\da95ffa5303229b21124ff07d5e27b01\material-1.1.0-alpha10\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\da95ffa5303229b21124ff07d5e27b01\material-1.1.0-alpha10\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\37ec02f661e3547c5499ecdfd9f3cd1f\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\37ec02f661e3547c5499ecdfd9f3cd1f\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8392647ca9531c13a8f0d6b7ad086e7e\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b5fa044729524827998e74ee2c6bf618\viewpager2-1.0.0-beta03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b5fa044729524827998e74ee2c6bf618\viewpager2-1.0.0-beta03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\add2bdb41de46d90e5d3bd4e75929820\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\add2bdb41de46d90e5d3bd4e75929820\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dd07e922b5233b833d82ee834e6becf7\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\dd07e922b5233b833d82ee834e6becf7\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34085af895daa23049fd0af188e6a001\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f394ee478b4ec1dcbbf5ae71b3314faa\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f394ee478b4ec1dcbbf5ae71b3314faa\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\80b2360a587be5f7a2d6fa8510bd68ae\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\80b2360a587be5f7a2d6fa8510bd68ae\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\f3997ce16a5c00ae84a772d300d0e1e8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\331f61861c2d3a925f2252286afb1f53\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\daa47187fb0f0a7c419d1b10e1677cdd\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\daa47187fb0f0a7c419d1b10e1677cdd\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\beed28e19d4f55ab2c17aff66e0bc400\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\beed28e19d4f55ab2c17aff66e0bc400\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e0d80e5c178a0db065288a448fc598ef\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e0d80e5c178a0db065288a448fc598ef\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3172aa59c57a5da0079730ae808b7b8\recyclerview-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3172aa59c57a5da0079730ae808b7b8\recyclerview-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\740a70a0c89c8c085b6e012b4bd7790e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\aa91d8d2653c363bbd5da9d9892260d3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\ccc4f60e4549c263b614feec2a027fa2\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c9c8616d74aa0ab3eb457d24b669c685\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0554424e228349ffc3db0700d1324aa1\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0554424e228349ffc3db0700d1324aa1\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bad233a64070d55cab9a83b26afbf154\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\bad233a64070d55cab9a83b26afbf154\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7acef2a7bfef3795312317efec15d83e\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7acef2a7bfef3795312317efec15d83e\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\d4ef17d609918d2a5f5a86d1ea02678f\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+		INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+		ADDED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+		INJECTED from D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml

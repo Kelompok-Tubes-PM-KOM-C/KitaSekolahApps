@@ -1,0 +1,4 @@
+#Thu Oct 03 19:42:57 ICT 2019
+base.0=D\:\\KITA_SEKOLAH\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
