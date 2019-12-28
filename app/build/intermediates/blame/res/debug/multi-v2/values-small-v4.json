@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\KITA_SEKOLAH\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "D:\\TUBES MOBILE\\KITA_SEKOLAH\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\da95ffa5303229b21124ff07d5e27b01\\material-1.1.0-alpha10\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\c16b33b09c770b4cf858655d9ca0708c\\material-1.1.0-alpha10\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

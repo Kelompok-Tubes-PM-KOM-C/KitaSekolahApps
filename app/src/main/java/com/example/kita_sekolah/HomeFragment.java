@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,15 +21,23 @@ public class HomeFragment extends Fragment {
     private Context thiscontext;
     private Button mbtn_buku;
 
+    private TextView hallo_nama;
+    String nama;
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         myFragment = inflater.inflate(R.layout.fragment_home, container, false);
 
+        halaman_utama activity = (halaman_utama) getActivity();
+        nama = activity.getNama();
+
         thiscontext = container.getContext();
 
         mSlideViewPager = myFragment.findViewById(R.id.slideViewPager);
         mbtn_buku = myFragment.findViewById(R.id.btn_buku);
+        hallo_nama = myFragment.findViewById(R.id.hallo_nama);
+        hallo_nama.setText("Hallo "+nama);
 
 
 //        mbtn_buku.setOnClickListener(new View.OnClickListener(){

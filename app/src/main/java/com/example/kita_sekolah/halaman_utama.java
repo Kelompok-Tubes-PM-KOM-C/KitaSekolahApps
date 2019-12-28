@@ -27,10 +27,16 @@ public class halaman_utama extends AppCompatActivity {
     private AccountFragment accountFragment;
     private Button mBtnDonasi;
 
+    String getnama;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_utama);
+
+        Intent intent = getIntent();
+        getnama = intent.getStringExtra("nama");
 
         mBtnDonasi = findViewById(R.id.btn_donasi);
 
@@ -89,6 +95,10 @@ public class halaman_utama extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.fl_container, fragment);
         fragmentTransaction.commit();
+    }
+
+    public String getNama() {
+        return getnama;
     }
 
 

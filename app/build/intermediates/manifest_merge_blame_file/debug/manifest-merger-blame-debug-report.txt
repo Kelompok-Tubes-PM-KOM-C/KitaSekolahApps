@@ -6,97 +6,98 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+8-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
+9-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml
 10
 11    <uses-feature
-11-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:5:5-7:35
+11-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:5:5-7:35
 12        android:name="android.hardware.camera"
-12-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:6:9-47
+12-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:6:9-47
 13        android:required="true" />
-13-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:7:9-32
+13-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:7:9-32
 14
 15    <uses-permission
-15-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:9:5-11:38
+15-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:9:5-11:38
 16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-16-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:10:9-65
+16-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:10:9-65
 17        android:maxSdkVersion="18" />
-17-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:11:9-35
+17-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:11:9-35
 18
 19    <application
-19-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:13:5-45:19
+19-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:13:5-45:19
 20        android:allowBackup="true"
-20-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:14:9-35
+20-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:14:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
-23-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:15:9-43
+23-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:15:9-43
 24        android:label="@string/app_name"
-24-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:16:9-41
+24-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:16:9-41
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:17:9-54
+25-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:17:9-54
 26        android:supportsRtl="true"
-26-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:18:9-35
-27        android:theme="@style/AppTheme" >
-27-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:19:9-40
-28        <activity android:name="com.example.kita_sekolah.lab_scroll" />
-28-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:20:9-57
-28-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:20:19-45
-29        <activity android:name="com.example.kita_sekolah.halaman_donasi_uang" />
-29-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:21:9-57
-29-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:21:19-54
-30        <activity android:name="com.example.kita_sekolah.halaman_pilihDonasi" />
-30-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:22:9-57
-30-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:22:19-54
-31        <activity android:name="com.example.kita_sekolah.halaman_beli" />
-31-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:23:9-50
-31-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:23:19-47
-32        <activity android:name="com.example.kita_sekolah.halaman_donasi" />
-32-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:24:9-52
-32-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:24:19-49
-33        <activity android:name="com.example.kita_sekolah.halaman_utama" />
-33-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:25:9-51
-33-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:25:19-48
-34        <activity android:name="com.example.kita_sekolah.start2_activity" />
-34-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:26:9-53
-34-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:26:19-50
-35        <activity android:name="com.example.kita_sekolah.start1_activity" />
-35-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:27:9-53
-35-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:27:19-50
-36        <activity android:name="com.example.kita_sekolah.MainActivity" >
-36-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:28:9-34:20
-36-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:28:19-47
-37            <intent-filter>
-37-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:29:13-33:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:30:17-69
-38-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:30:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:32:17-77
-40-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:32:27-74
-41            </intent-filter>
-42        </activity>
-43
-44        <provider
-44-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:36:9-44:20
-45            android:name="androidx.core.content.FileProvider"
-45-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:37:13-62
-46            android:authorities="com.example.android.fileprovider"
-46-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:38:13-67
-47            android:exported="false"
-47-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:39:13-37
-48            android:grantUriPermissions="true" >
-48-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:40:13-47
-49            <meta-data
-49-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:41:13-43:54
-50                android:name="android.support.FILE_PROVIDER_PATHS"
-50-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:42:17-67
-51                android:resource="@xml/file_paths" />
-51-->D:\HANNA\LOMBA HANNA\GEMASTIK 12 2019\KITA SEKOLAH- APPDEV\TAHAP2\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:43:17-51
-52        </provider>
-53    </application>
-54
-55</manifest>
+26-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:18:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:19:9-40
+29        <activity android:name="com.example.kita_sekolah.lab_scroll" />
+29-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:20:9-57
+29-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:20:19-45
+30        <activity android:name="com.example.kita_sekolah.halaman_donasi_uang" />
+30-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:21:9-57
+30-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:21:19-54
+31        <activity android:name="com.example.kita_sekolah.halaman_pilihDonasi" />
+31-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:22:9-57
+31-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:22:19-54
+32        <activity android:name="com.example.kita_sekolah.halaman_beli" />
+32-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:23:9-50
+32-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:23:19-47
+33        <activity android:name="com.example.kita_sekolah.halaman_donasi" />
+33-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:24:9-52
+33-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:24:19-49
+34        <activity android:name="com.example.kita_sekolah.halaman_utama" />
+34-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:25:9-51
+34-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:25:19-48
+35        <activity android:name="com.example.kita_sekolah.start2_activity" />
+35-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:26:9-53
+35-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:26:19-50
+36        <activity android:name="com.example.kita_sekolah.start1_activity" />
+36-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:27:9-53
+36-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:27:19-50
+37        <activity android:name="com.example.kita_sekolah.MainActivity" >
+37-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:28:9-34:20
+37-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:28:19-47
+38            <intent-filter>
+38-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:29:13-33:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:30:17-69
+39-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:30:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:32:17-77
+41-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:32:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+45-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:36:9-44:20
+46            android:name="androidx.core.content.FileProvider"
+46-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:37:13-62
+47            android:authorities="com.example.android.fileprovider"
+47-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:38:13-67
+48            android:exported="false"
+48-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:39:13-37
+49            android:grantUriPermissions="true" >
+49-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:40:13-47
+50            <meta-data
+50-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:41:13-43:54
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:42:17-67
+52                android:resource="@xml/file_paths" />
+52-->D:\TUBES MOBILE\KITA_SEKOLAH\app\src\main\AndroidManifest.xml:43:17-51
+53        </provider>
+54    </application>
+55
+56</manifest>
