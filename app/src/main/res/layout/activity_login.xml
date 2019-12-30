@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.426" />
 
     <EditText
-        android:id="@+id/input_username"
+        android:id="@+id/input_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -69,11 +69,11 @@
         android:textColorHint="#fff"
         android:textColorLink="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_login"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_logout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_username"
+        app:layout_constraintTop_toBottomOf="@+id/input_email"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
@@ -104,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/btn_logout"
         app:layout_constraintVertical_bias="0.837" />
 
     <TextView

@@ -98,7 +98,7 @@ public class start1_activity extends AppCompatActivity {
                 mNextBtn.setOnClickListener(new View.OnClickListener(){
                     @Override
                     public void onClick(View view) {
-                        Intent mNextBtn = new Intent(start1_activity.this, login.class);
+                        Intent mNextBtn = new Intent(start1_activity.this, registrasi.class);
                         startActivity(mNextBtn);
                     }
                 });

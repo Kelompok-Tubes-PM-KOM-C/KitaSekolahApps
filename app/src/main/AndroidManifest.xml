@@ -17,7 +17,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login"></activity>
+        <activity android:name=".registrasi"></activity>
+        <activity android:name=".login" />
         <activity android:name=".lab_scroll" />
         <activity android:name=".halaman_donasi_uang" />
         <activity android:name=".halaman_pilihDonasi" />
