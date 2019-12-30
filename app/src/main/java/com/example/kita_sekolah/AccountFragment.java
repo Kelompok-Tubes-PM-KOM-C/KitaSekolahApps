@@ -1,9 +1,11 @@
 package com.example.kita_sekolah;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,12 +14,19 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.tabs.TabLayout;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class AccountFragment extends Fragment {
     View myFragment;
 
     ViewPager viewPager;
     TabLayout tabLayout;
+
+    Button btnLogout = null;
+    Intent intent;
+    FirebaseAuth mFirebaseAuth;
+
+    private FirebaseAuth.AuthStateListener mAuthStateListener;
 
     public AccountFragment() {
 
@@ -33,6 +42,17 @@ public class AccountFragment extends Fragment {
 
         tabLayout = myFragment.findViewById(R.id.acc_tablayout);
         viewPager = myFragment.findViewById(R.id.acc_viewpager);
+
+        intent = new Intent(getActivity(), login.class);
+        btnLogout = myFragment.findViewById(R.id.btn_logout);
+
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                startActivity(intent);
+            }
+        });
+
 
         return myFragment;
     }

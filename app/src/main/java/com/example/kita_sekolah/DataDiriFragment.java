@@ -12,11 +12,8 @@ import androidx.fragment.app.Fragment;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-public class DataDiriFragment extends Fragment implements View.OnClickListener{
+public class DataDiriFragment extends Fragment{
     View view;
-    Button btnLogout;
-    FirebaseAuth mFirebaseAuth;
-    private FirebaseAuth.AuthStateListener mAuthStateListener;
 
     public DataDiriFragment() {
 
@@ -28,19 +25,18 @@ public class DataDiriFragment extends Fragment implements View.OnClickListener{
             container, @Nullable Bundle savedInstanceState){
 
         view = inflater.inflate(R.layout.data_diri_fragment,container,false);
-        btnLogout = view.findViewById(R.id.btn_logout);
-        btnLogout.setOnClickListener(this);
+
         return view;
 
     }
-
-    @Override
-    public void onClick(View v) {
-    FirebaseAuth.getInstance().signOut();
-        Intent logout = new Intent(getActivity(), registrasi.class);
-        startActivity(logout);
-
-    }
+//
+//    @Override
+//    public void onClick(View v) {
+//    FirebaseAuth.getInstance().signOut();
+//        Intent logout = new Intent(getActivity(), registrasi.class);
+//        view.getContext().startActivity(logout);
+//
+//    }
 
 }
 
