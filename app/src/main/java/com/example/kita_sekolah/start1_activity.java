@@ -30,11 +30,11 @@ public class start1_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start1_activity);
 
-        mSlideViewPager = (ViewPager) findViewById(R.id.slideViewPager);
-        mDotLayout = (LinearLayout) findViewById(R.id.dotsLayout);
+        mSlideViewPager = findViewById(R.id.slideViewPager);
+        mDotLayout = findViewById(R.id.dotsLayout);
 
-        mNextBtn = (Button) findViewById(R.id.nextBtn);
-        mBackBtn = (Button) findViewById(R.id.prevBtn);
+        mNextBtn = findViewById(R.id.nextBtn);
+        mBackBtn = findViewById(R.id.prevBtn);
 
         sliderAdapter = new SliderAdapter(this);
         mSlideViewPager.setAdapter(sliderAdapter);
@@ -98,7 +98,7 @@ public class start1_activity extends AppCompatActivity {
                 mNextBtn.setOnClickListener(new View.OnClickListener(){
                     @Override
                     public void onClick(View view) {
-                        Intent mNextBtn = new Intent(start1_activity.this, start2_activity.class);
+                        Intent mNextBtn = new Intent(start1_activity.this, login.class);
                         startActivity(mNextBtn);
                     }
                 });

@@ -24,5 +24,6 @@
     <string name="kita_sekolah">KITA SEKOLAH</string>
     <string name="donasi_jual_barang">DONASI/JUAL BARANG</string>
     <string name="daftar_favorit">DAFTAR FAVORIT</string>
+    <string name="login">Login</string>
 
 </resources>
