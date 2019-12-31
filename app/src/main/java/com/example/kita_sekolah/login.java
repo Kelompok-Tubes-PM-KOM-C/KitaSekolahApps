@@ -22,6 +22,7 @@ public class login extends AppCompatActivity {
     EditText emailId, password;
     Button btnLogin;
     TextView tvDaftar;
+    TextView tvLewati;
     FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
@@ -36,6 +37,7 @@ public class login extends AppCompatActivity {
         password = findViewById(R.id.input_password);
         btnLogin = findViewById(R.id.btn_login);
         tvDaftar = findViewById(R.id.tv_daftar);
+        tvLewati = findViewById(R.id.tv_lewati2);
 
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -97,6 +99,14 @@ public class login extends AppCompatActivity {
             public void onClick(View v) {
                 Intent daftar = new Intent(login.this, registrasi.class);
                 startActivity(daftar);
+            }
+        });
+
+        tvLewati.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent lewati = new Intent(login.this, start2_activity.class);
+                startActivity(lewati);
             }
         });
     }
