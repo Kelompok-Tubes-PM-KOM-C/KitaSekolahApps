@@ -8,27 +8,60 @@
     android:background="@drawable/background_page_inputnama">
 
 
-    <TextView
-        android:id="@+id/tvdaftar"
-        android:layout_width="162dp"
-        android:layout_height="58dp"
+    <EditText
+        android:id="@+id/input_namadepan_reg"
+        android:layout_width="219dp"
+        android:layout_height="44dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Registrasi"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Nama Depan"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
         android:textColor="#fff"
-        android:textSize="36sp"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#fff"
+        android:textColorLink="#FFFFFF"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446" />
+        app:layout_constraintVertical_bias="0.482" />
+
+    <EditText
+        android:id="@+id/input_nohp_reg"
+        android:layout_width="219dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="No HP"
+        android:inputType="number"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#fff"
+        android:textColorLink="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
 
     <EditText
         android:id="@+id/input_email_reg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="219dp"
+        android:layout_height="44dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
@@ -46,15 +79,14 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.548" />
+        app:layout_constraintVertical_bias="0.667" />
 
     <EditText
         android:id="@+id/input_password_reg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="219dp"
+        android:layout_height="43dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
@@ -71,15 +103,39 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/btn_logout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_email_reg"
         app:layout_constraintVertical_bias="0.0" />
 
+    <EditText
+        android:id="@+id/input_namabelakang_reg"
+        android:layout_width="219dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Nama Belakang"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#fff"
+        android:textColorLink="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
     <Button
         android:id="@+id/btn_daftar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="212dp"
+        android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
@@ -89,16 +145,15 @@
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.705" />
+        app:layout_constraintVertical_bias="0.844" />
 
     <TextView
         android:id="@+id/textview_reg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:text="Sudah punya akun?"
         android:textColor="#fff"
         app:layout_constraintBottom_toTopOf="@+id/tv_daftar"
@@ -120,7 +175,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_reg"
-        app:layout_constraintVertical_bias="0.368" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tv_lewati"
