@@ -16,6 +16,8 @@ import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
 
+import io.paperdb.Paper;
+
 public class AccountFragment extends Fragment {
     View myFragment;
 
@@ -48,7 +50,7 @@ public class AccountFragment extends Fragment {
 
         btnLogout.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                FirebaseAuth.getInstance().signOut();
+                Paper.book().destroy();
                 startActivity(intent);
             }
         });

@@ -13,12 +13,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.kita_sekolah.Model.Users;
+import com.example.kita_sekolah.Prevalent.Prevalent;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
+import io.paperdb.Paper;
 
 public class login extends AppCompatActivity {
 
@@ -44,6 +47,7 @@ public class login extends AppCompatActivity {
         tvDaftar = findViewById(R.id.tv_daftar);
         tvLewati = findViewById(R.id.tv_lewati2);
         loadingBar = new ProgressDialog(this);
+        Paper.init(this);
 
 //        mAuthStateListener = new FirebaseAuth.AuthStateListener() {
 //            @Override
@@ -141,6 +145,10 @@ public class login extends AppCompatActivity {
     }
 
     private void AllowAccessAccount(final String input, final String pwd) {
+
+        Paper.book().write(Prevalent.UserPhoneKey, input);
+        Paper.book().write(Prevalent.UserPasswordKey, pwd);
+
         final DatabaseReference RootRef;
         RootRef = FirebaseDatabase.getInstance().getReference();
 
