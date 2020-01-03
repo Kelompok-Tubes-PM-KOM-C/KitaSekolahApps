@@ -9,7 +9,7 @@
 
 
     <EditText
-        android:id="@+id/input_namadepan_reg"
+        android:id="@+id/input_nama"
         android:layout_width="219dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
@@ -18,7 +18,7 @@
         android:layout_marginBottom="16dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="Nama Depan"
+        android:hint="Nama"
         android:inputType="textPersonName"
         android:text=""
         android:textAlignment="center"
@@ -108,7 +108,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/input_namabelakang_reg"
+        android:id="@+id/input_username"
         android:layout_width="219dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
@@ -117,7 +117,7 @@
         android:layout_marginBottom="16dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="Nama Belakang"
+        android:hint="username"
         android:inputType="textPersonName"
         android:text=""
         android:textAlignment="center"

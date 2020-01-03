@@ -14,7 +14,6 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -23,12 +22,11 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
-import java.util.Hashtable;
 
 public class registrasi extends AppCompatActivity {
 
-    EditText namadepan,
-            namabelakang,
+    EditText input_nama,
+            input_username,
             nohp,
             emailId,
             password;
@@ -45,8 +43,8 @@ public class registrasi extends AppCompatActivity {
         setContentView(R.layout.activity_registrasi);
 
         mFirebaseAuth = FirebaseAuth.getInstance();
-        namadepan = findViewById(R.id.input_namadepan_reg);
-        namabelakang = findViewById(R.id.input_namabelakang_reg);
+        input_nama = findViewById(R.id.input_nama);
+        input_username = findViewById(R.id.input_username);
         nohp = findViewById(R.id.input_nohp_reg);
         emailId = findViewById(R.id.input_email_reg);
         password = findViewById(R.id.input_password_reg);
@@ -83,19 +81,19 @@ public class registrasi extends AppCompatActivity {
 
     private void CreateAccount() {
 
-        String nama_depan = namadepan.getText().toString();
-        String nama_belakang = namabelakang.getText().toString();
+        String nama = input_nama.getText().toString();
+        String username = input_username.getText().toString();
         String no_hp = nohp.getText().toString();
         String email = emailId.getText().toString();
         String pwd = password.getText().toString();
 
-        if (nama_depan.isEmpty()) {
-            namadepan.setError("Masukkan Nama Depan");
-            namadepan.requestFocus();
+        if (nama.isEmpty()) {
+            input_nama.setError("Masukkan Nama Depan");
+            input_nama.requestFocus();
         }
-        else if (nama_belakang.isEmpty()) {
-            namabelakang.setError("Masukkan Nama Belakang");
-            namabelakang.requestFocus();
+        else if (username.isEmpty()) {
+            input_username.setError("Masukkan Nama Belakang");
+            input_username.requestFocus();
         }
         else if (no_hp.isEmpty()) {
             nohp.setError("Masukkan No HP");
@@ -132,13 +130,28 @@ public class registrasi extends AppCompatActivity {
             loadingBar.setCanceledOnTouchOutside(false);
             loadingBar.show();
 
-
-            ValidatephoneNumber(nama_depan,no_hp,pwd,nama_belakang,email);
+//          FirebaseAuthEmail(nama_depan,no_hp,pwd,nama_belakang,email);
+            ValidatephoneNumber(nama,no_hp,pwd,username,email);
         }
 
     }
 
-    private void ValidatephoneNumber(final String nama_depan, final String no_hp, final String pwd, final String nama_belakang, final String email) {
+//    private void FirebaseAuthEmail(final String nama_depan, final String no_hp, final String pwd, final String nama_belakang, final String email) {
+//        mFirebaseAuth.createUserWithEmailAndPassword(email,pwd).addOnCompleteListener(registrasi.this, new OnCompleteListener<AuthResult>() {
+//                @Override
+//                public void onComplete(@NonNull Task<AuthResult> task) {
+//                    if(!task.isSuccessful()) {
+//                        Toast.makeText(registrasi.this, "Registrasi Gagal, Coba Lagi", Toast.LENGTH_SHORT).show();
+//                    }
+//                    else {
+//                        ValidatephoneNumber(nama_depan,no_hp,pwd,nama_belakang,email);
+//                    }
+//                }
+//            });
+//
+//    }
+
+    private void ValidatephoneNumber(final String nama, final String no_hp, final String pwd, final String username, final String email) {
         final DatabaseReference RootRef;
         RootRef = FirebaseDatabase.getInstance().getReference();
 
@@ -148,9 +161,9 @@ public class registrasi extends AppCompatActivity {
                 if (!(dataSnapshot.child("Users").child(no_hp).exists())) {
 
                     HashMap<String, Object> userdataMap = new HashMap<>();
-                    userdataMap.put("Nama Depan", nama_depan);
-                    userdataMap.put("Nama Belakang", nama_belakang);
-                    userdataMap.put("No HP", no_hp);
+                    userdataMap.put("nama", nama);
+                    userdataMap.put("username", username);
+                    userdataMap.put("no_hp", no_hp);
                     userdataMap.put("email", email);
                     userdataMap.put("password", pwd);
 

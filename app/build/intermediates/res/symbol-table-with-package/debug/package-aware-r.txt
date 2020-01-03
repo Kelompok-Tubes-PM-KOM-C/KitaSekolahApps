@@ -149,6 +149,7 @@ attr buttonCompat
 attr buttonGravity
 attr buttonIconDimen
 attr buttonPanelSideLayout
+attr buttonSize
 attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
@@ -190,6 +191,7 @@ attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
 attr chipSurfaceColor
+attr circleCrop
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -220,6 +222,7 @@ attr colorPrimary
 attr colorPrimaryDark
 attr colorPrimarySurface
 attr colorPrimaryVariant
+attr colorScheme
 attr colorSecondary
 attr colorSecondaryVariant
 attr colorSurface
@@ -372,6 +375,8 @@ attr iconStartPadding
 attr iconTint
 attr iconTintMode
 attr iconifiedByDefault
+attr imageAspectRatio
+attr imageAspectRatioAdjust
 attr imageButtonStyle
 attr indeterminateProgressStyle
 attr initialActivityCount
@@ -551,6 +556,7 @@ attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
 attr reverseLayout
 attr rippleColor
+attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -768,6 +774,17 @@ color colorPrimary
 color colorPrimaryDark
 color colorTransparentWhite
 color colorWhite
+color common_google_signin_btn_text_dark
+color common_google_signin_btn_text_dark_default
+color common_google_signin_btn_text_dark_disabled
+color common_google_signin_btn_text_dark_focused
+color common_google_signin_btn_text_dark_pressed
+color common_google_signin_btn_text_light
+color common_google_signin_btn_text_light_default
+color common_google_signin_btn_text_light_disabled
+color common_google_signin_btn_text_light_focused
+color common_google_signin_btn_text_light_pressed
+color common_google_signin_btn_tint
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1357,6 +1374,25 @@ drawable btn_white
 drawable buku1
 drawable buku2
 drawable buku3
+drawable common_full_open_on_phone
+drawable common_google_signin_btn_icon_dark
+drawable common_google_signin_btn_icon_dark_focused
+drawable common_google_signin_btn_icon_dark_normal
+drawable common_google_signin_btn_icon_dark_normal_background
+drawable common_google_signin_btn_icon_disabled
+drawable common_google_signin_btn_icon_light
+drawable common_google_signin_btn_icon_light_focused
+drawable common_google_signin_btn_icon_light_normal
+drawable common_google_signin_btn_icon_light_normal_background
+drawable common_google_signin_btn_text_dark
+drawable common_google_signin_btn_text_dark_focused
+drawable common_google_signin_btn_text_dark_normal
+drawable common_google_signin_btn_text_dark_normal_background
+drawable common_google_signin_btn_text_disabled
+drawable common_google_signin_btn_text_light
+drawable common_google_signin_btn_text_light_focused
+drawable common_google_signin_btn_text_light_normal
+drawable common_google_signin_btn_text_light_normal_background
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1365,6 +1401,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable donasi_barang
 drawable donasi_uang
+drawable googleg_disabled_color_18
+drawable googleg_standard_color_18
 drawable handbook
 drawable header1
 drawable header2
@@ -1490,6 +1528,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id adjust_height
+id adjust_width
 id alertTitle
 id all
 id always
@@ -1505,12 +1545,14 @@ id bn_main
 id bottom
 id btn_baju
 id btn_buku
+id btn_daftar
 id btn_donasi
 id btn_donasibarang
 id btn_donasiuang
 id btn_konfirmasi
 id btn_konfirmasi2
 id btn_login
+id btn_logout
 id btn_mulai
 id btn_search
 id btn_sepatu
@@ -1538,6 +1580,7 @@ id coordinator
 id custom
 id customPanel
 id cut
+id dark
 id data_pribadi
 id date_picker_actions
 id decor_content_parent
@@ -1585,12 +1628,15 @@ id gone
 id group_divider
 id groups
 id guideline
+id hallo_nama
+id hallo_nama2
 id hideable
 id home
 id homeAsUp
 id home_menu
 id icon
 id icon_group
+id icon_only
 id ifRoom
 id image
 id image1
@@ -1599,6 +1645,7 @@ id image3
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id info
 id input_alamat
 id input_alamat2
@@ -1607,16 +1654,23 @@ id input_alamatdonasi2
 id input_bank
 id input_descbarang
 id input_donasiuang
+id input_email_reg
 id input_jam
 id input_jemput
 id input_jenisbarang
 id input_jumlah
+id input_login
 id input_nama
 id input_namabarang
+id input_nohp_reg
 id input_norek
+id input_password
+id input_password_reg
 id input_reparasi
 id input_tempatdonasi
 id input_tgl
+id input_username
+id inputnama
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1625,6 +1679,7 @@ id jmlh_donasi
 id labeled
 id largeLabel
 id left
+id light
 id line1
 id line3
 id listMode
@@ -1761,17 +1816,17 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textView10
 id textView11
 id textView12
 id textView13
 id textView14
+id textView15
+id textView16
 id textView17
 id textView18
 id textView2
 id textView3
-id textView4
 id textView5
 id textView6
 id textView7
@@ -1786,6 +1841,7 @@ id text_input_start_icon
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id textview_reg
 id time
 id title
 id titleDividerNoCustom
@@ -1802,6 +1858,8 @@ id transition_transform
 id tujuan_donasi
 id tv_baranguang
 id tv_baranguang2
+id tv_daftar
+id tv_daftar2
 id tv_databarang
 id tv_desc_2
 id tv_desc_3
@@ -1813,9 +1871,13 @@ id tv_harga_3
 id tv_item
 id tv_judul_2
 id tv_judul_3
+id tv_lewati
+id tv_lewati2
+id tv_login
 id tv_pilihdonasi
 id tv_pilihdonasi2
 id tv_tujuan
+id tvlogin
 id unchecked
 id uniform
 id unlabeled
@@ -1823,6 +1885,7 @@ id up
 id useLogo
 id view_offset_helper
 id visible
+id wide
 id withText
 id wrap
 id wrap_content
@@ -1834,6 +1897,7 @@ integer cancel_button_image_alpha
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
+integer google_play_services_version
 integer hide_password_duration
 integer mtrl_badge_max_character_count
 integer mtrl_btn_anim_delay_ms
@@ -1891,7 +1955,10 @@ layout activity_halaman_donasi
 layout activity_halaman_donasi_uang
 layout activity_halaman_pilih_donasi
 layout activity_halaman_utama
+layout activity_lab_scroll
+layout activity_login
 layout activity_main
+layout activity_registrasi
 layout activity_start1_activity
 layout activity_start2_activity
 layout alamat_fragment
@@ -1921,6 +1988,7 @@ layout fragment_search
 layout fragment_tempat_du
 layout konfirmasi_fragment
 layout konfirmasi_fragment_du
+layout layout_test_lab
 layout list_buku
 layout list_donasi_fragment
 layout list_pesanan_fragment
@@ -2023,18 +2091,44 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string common_google_play_services_enable_button
+string common_google_play_services_enable_text
+string common_google_play_services_enable_title
+string common_google_play_services_install_button
+string common_google_play_services_install_text
+string common_google_play_services_install_title
+string common_google_play_services_notification_channel_name
+string common_google_play_services_notification_ticker
+string common_google_play_services_unknown_issue
+string common_google_play_services_unsupported_text
+string common_google_play_services_update_button
+string common_google_play_services_update_text
+string common_google_play_services_update_title
+string common_google_play_services_updating_text
+string common_google_play_services_wear_update_text
+string common_open_on_phone
+string common_signin_button_text
+string common_signin_button_text_long
 string daftar_favorit
+string default_web_client_id
 string donasi_jual_barang
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string favorite
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hallo
 string hide_bottom_view_on_scroll_behavior
 string home
 string icon_content_description
 string kita_sekolah
+string login
 string masukkan_nama
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
@@ -2075,6 +2169,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string project_id
 string search
 string search_menu_title
 string sepatu
@@ -2807,6 +2902,7 @@ styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialButton android_insetLeft android_insetRight android_insetTop android_insetBottom android_checkable backgroundTint backgroundTintMode cornerRadius elevation icon iconGravity iconPadding iconSize iconTint iconTintMode rippleColor shapeAppearance shapeAppearanceOverlay strokeColor strokeWidth
@@ -2831,6 +2927,7 @@ styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable ShapeAppearance cornerFamily cornerFamilyBottomLeft cornerFamilyBottomRight cornerFamilyTopLeft cornerFamilyTopRight cornerSize cornerSizeBottomLeft cornerSizeBottomRight cornerSizeTopLeft cornerSizeTopRight
+styleable SignInButton buttonSize colorScheme scopeUris
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode backgroundOverlayColorAlpha elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
