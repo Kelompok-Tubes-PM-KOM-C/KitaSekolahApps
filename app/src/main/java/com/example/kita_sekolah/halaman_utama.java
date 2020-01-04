@@ -14,6 +14,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import io.paperdb.Paper;
 
 public class halaman_utama extends AppCompatActivity {
 
@@ -34,6 +38,7 @@ public class halaman_utama extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_utama);
+
 
         Intent intent = getIntent();
         getnama = intent.getStringExtra("nama");
