@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="false">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:gravity="center_horizontal"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".input_produk_admin">
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="50dp"
-        android:text="*Ketuk gambar untuk mengambil foto"
-        android:textSize="10sp"
-        android:textColor="#5555"/>
+
+
+    <![CDATA[
+
+    android:id="@+id/textView11"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="50dp"
+    android:text="*Ketuk gambar untuk mengambil foto"
+    android:textSize="10sp"
+    android:textColor="#5555"/>
+
+
+
+
+
+    ]]>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -26,10 +37,42 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" />
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+
+            app:toolbarId="@+id/toolbar">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"></androidx.appcompat.widget.Toolbar>
+
+            <TextView
+                android:id="@+id/tv_appbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|center_horizontal"
+                android:text="INPUT PRODUCT"
+                android:textColor="#ffff" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -119,7 +162,7 @@
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/input_harga"
         android:layout_width="243dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -128,22 +171,24 @@
         android:textAlignment="center"
         android:textSize="14sp"/>
 
-    <Switch
-        android:id="@+id/input_reparasi"
-        android:layout_width="154dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="20dp"
-        android:text="Butuh Reparasi?" />
+    <Button
+        android:id="@+id/btn_input_produk"
+        android:layout_width="303dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_red"
+        android:text="INPUT PRODUCT"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705" />
 
-    <Switch
-        android:id="@+id/input_jemput"
-        android:layout_width="154dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="5dp"
-        android:text="Penjemputan Barang?" />
 
 </LinearLayout>
 </ScrollView>

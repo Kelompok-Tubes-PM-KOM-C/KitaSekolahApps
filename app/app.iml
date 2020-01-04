@@ -117,6 +117,7 @@
     <orderEntry type="library" name="Gradle: com.google.android.material:material:1.1.0-alpha10@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-database:18.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-storage:18.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth:19.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.viewpager2:viewpager2:1.0.0-beta03@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-interop:18.0.0@aar" level="project" />
