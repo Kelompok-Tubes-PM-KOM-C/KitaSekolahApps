@@ -21,7 +21,6 @@ public class halaman_pilihDonasi extends AppCompatActivity {
         mbtn_DonasiBarang = findViewById(R.id.btn_donasibarang);
         mbtn_DonasiUang = findViewById(R.id.btn_donasiuang);
 
-
         mbtn_DonasiBarang.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {

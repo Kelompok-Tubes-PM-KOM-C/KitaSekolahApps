@@ -24,7 +24,6 @@ public class halaman_utama_admin extends AppCompatActivity {
         btn_sepatu = findViewById(R.id.btn_sepatu);
         btn_tas = findViewById(R.id.btn_tas);
 
-
         btn_buku.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

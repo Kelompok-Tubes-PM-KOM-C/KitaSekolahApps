@@ -1,7 +1,9 @@
 package com.example.kita_sekolah;
 
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -12,6 +14,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -21,7 +24,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+
 import java.util.HashMap;
+
 
 public class registrasi extends AppCompatActivity {
 
@@ -79,6 +84,7 @@ public class registrasi extends AppCompatActivity {
 
     }
 
+
     private void CreateAccount() {
 
         String nama = input_nama.getText().toString();
@@ -91,22 +97,27 @@ public class registrasi extends AppCompatActivity {
             input_nama.setError("Masukkan Nama Depan");
             input_nama.requestFocus();
         }
+
         else if (username.isEmpty()) {
             input_username.setError("Masukkan Nama Belakang");
             input_username.requestFocus();
         }
+
         else if (no_hp.isEmpty()) {
             nohp.setError("Masukkan No HP");
             nohp.requestFocus();
         }
+
         else if(email.isEmpty()) {
             emailId.setError("Masukkan email");
             emailId.requestFocus();
         }
+
         else if (pwd.isEmpty()){
             password.setError("Masukkan password");
             password.requestFocus();
         }
+
 //        else if (email.isEmpty() && pwd.isEmpty()){
 //            Toast.makeText(registrasi.this, "Email & Password kosong", Toast.LENGTH_SHORT).show();
 //        }
@@ -151,6 +162,7 @@ public class registrasi extends AppCompatActivity {
 //
 //    }
 
+
     private void ValidatephoneNumber(final String nama, final String no_hp, final String pwd, final String username, final String email) {
         final DatabaseReference RootRef;
         RootRef = FirebaseDatabase.getInstance().getReference();
@@ -177,6 +189,7 @@ public class registrasi extends AppCompatActivity {
                                         Intent login = new Intent(registrasi.this, login.class);
                                         startActivity(login);
                                     }
+
                                     else {
                                         loadingBar.dismiss();
                                         Toast.makeText(registrasi.this, "Network Error : Coba lagi..", Toast.LENGTH_SHORT).show();
@@ -186,6 +199,7 @@ public class registrasi extends AppCompatActivity {
                             });
 
                 }
+                
                 else {
                     Toast.makeText(registrasi.this, "This " + no_hp + "Sudah terdaftar", Toast.LENGTH_SHORT).show();
                     loadingBar.dismiss();

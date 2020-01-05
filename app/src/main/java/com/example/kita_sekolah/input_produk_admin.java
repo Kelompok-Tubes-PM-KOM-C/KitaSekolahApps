@@ -157,7 +157,6 @@ public class input_produk_admin extends AppCompatActivity {
         }
     }
 
-
     private void ValidateProductData() {
 
         nama_brg = nama_barang.getText().toString();
