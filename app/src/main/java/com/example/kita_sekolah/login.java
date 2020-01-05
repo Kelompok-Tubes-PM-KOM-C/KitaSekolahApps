@@ -154,10 +154,14 @@ public class login extends AppCompatActivity {
                         if (userData.getPassword().equals(pwd)){
 
                             if (parentDbName.equals("Admins")) {
+
+                                Paper.book().write(Prevalent.UserPhoneKey, input);
+                                Paper.book().write(Prevalent.UserPasswordKey, pwd);
+
                                 Toast.makeText(login.this, "Login Admin", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
 
-                                Intent masuk_admin = new Intent(login.this, halaman_utama_admin.class);
+                                Intent masuk_admin = new Intent(login.this, home_admin_drawer.class);
                                 startActivity(masuk_admin);
                             }
 
