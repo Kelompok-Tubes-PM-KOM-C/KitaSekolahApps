@@ -17,6 +17,7 @@ MERGED from [io.paperdb:paperdb:2.6] C:\Users\ASUS\.gradle\caches\transforms-2\f
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\b9799d70f08d6212f2bb67aeb995639d\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0a2e12051ef7d31a6ff3a66968d3b3fa\navigation-fragment-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34a0f958f1a5c529752420354af1e004\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e2478934eda1cf359b237025edfec609\circleimageview-3.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\89c2ce158ea0f08d4d6e29a02e4be447\viewpager2-1.0.0-beta03\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c6759f075f7dacd9a34f2c4cacd81c5f\firebase-auth-interop-18.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\28c1ceda9eb72d23d1907429a7dd5035\play-services-measurement-api-17.2.0\AndroidManifest.xml:17:1-36:12
@@ -120,6 +121,8 @@ MERGED from [io.paperdb:paperdb:2.6] C:\Users\ASUS\.gradle\caches\transforms-2\f
 MERGED from [io.paperdb:paperdb:2.6] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\8807ad6b02e068c0acf20041a808fd72\paperdb-2.6\AndroidManifest.xml:12:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34a0f958f1a5c529752420354af1e004\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34a0f958f1a5c529752420354af1e004\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e2478934eda1cf359b237025edfec609\circleimageview-3.0.1\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e2478934eda1cf359b237025edfec609\circleimageview-3.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c6759f075f7dacd9a34f2c4cacd81c5f\firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c6759f075f7dacd9a34f2c4cacd81c5f\firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\28c1ceda9eb72d23d1907429a7dd5035\play-services-measurement-api-17.2.0\AndroidManifest.xml:26:5-34:19
@@ -286,6 +289,8 @@ MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\ASUS\.gradl
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\0a2e12051ef7d31a6ff3a66968d3b3fa\navigation-fragment-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34a0f958f1a5c529752420354af1e004\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\34a0f958f1a5c529752420354af1e004\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e2478934eda1cf359b237025edfec609\circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e2478934eda1cf359b237025edfec609\circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\89c2ce158ea0f08d4d6e29a02e4be447\viewpager2-1.0.0-beta03\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta03] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\89c2ce158ea0f08d4d6e29a02e4be447\viewpager2-1.0.0-beta03\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\c6759f075f7dacd9a34f2c4cacd81c5f\firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
