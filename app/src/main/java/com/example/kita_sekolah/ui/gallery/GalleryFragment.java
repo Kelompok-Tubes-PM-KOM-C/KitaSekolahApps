@@ -18,7 +18,8 @@ import com.example.kita_sekolah.R;
 public class GalleryFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
-    public ImageView gambar_produk;
+    private ImageView gambar_produk;
+    private TextView tv_namaproduk, tv_descproduk, tv_hargaproduk;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -35,6 +36,9 @@ public class GalleryFragment extends Fragment {
 
 
         gambar_produk = root.findViewById(R.id.gambar_produk);
+        tv_namaproduk = root.findViewById(R.id.tv_namaproduk);
+        tv_descproduk = root.findViewById(R.id.tv_descproduk);
+        tv_hargaproduk = root.findViewById(R.id.tv_hargaproduk);
 
         return root;
     }
