@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_listproduct"
+            android:icon="@drawable/ic_listproduct"
+            android:title="Validate Product" />
+        <item
+            android:id="@+id/nav_donation"
+            android:icon="@drawable/ic_donation"
+            android:title="Donation" />
+        <item
+            android:id="@+id/nav_donation2"
+            android:icon="@drawable/ic_donation2"
+            android:title="Barang Bekas" />
+
+        <item
+            android:id="@+id/nav_inputproduct"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Input Product" />
+
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

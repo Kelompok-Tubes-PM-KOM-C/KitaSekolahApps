@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "366484700061",
+    "firebase_url": "https://kita-sekolah-63b6f.firebaseio.com",
+    "project_id": "kita-sekolah-63b6f",
+    "storage_bucket": "kita-sekolah-63b6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366484700061:android:1ecae89c4a14f448968d74",
+        "android_client_info": {
+          "package_name": "com.example.kita_sekolah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366484700061-h4bp58r0klm9i1a240h2vpra4a2vtsqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWD9Ik0YDei6HcMS0N1qGGZBHL1qKBZUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366484700061-h4bp58r0klm9i1a240h2vpra4a2vtsqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
