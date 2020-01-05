@@ -33,8 +33,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.kita_sekolah.home_admin_drawer"
+            android:label="@string/title_activity_home_admin_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.kita_sekolah.input_produk_admin" />
         <activity android:name="com.example.kita_sekolah.halaman_utama_admin" />
         <activity android:name="com.example.kita_sekolah.registrasi" />
         <activity android:name="com.example.kita_sekolah.login" />
@@ -80,6 +84,9 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
@@ -137,6 +144,12 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.kita_sekolah.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

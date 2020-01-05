@@ -412,6 +412,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\2b8107d367154ffa856ec6fdf5204726\\material-1.1.0-alpha10\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
+        "merged": "D:\\TUBES MOBILE\\KITA_SEKOLAH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_input_produk_admin.xml.flat",
+        "source": "D:\\TUBES MOBILE\\KITA_SEKOLAH\\app\\src\\main\\res\\layout\\activity_input_produk_admin.xml"
+    },
+    {
         "merged": "D:\\TUBES MOBILE\\KITA_SEKOLAH\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\56b6cdfbd80af409835a31a4470c49f0\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
@@ -1910,6 +1914,10 @@
     {
         "merged": "D:\\TUBES MOBILE\\KITA_SEKOLAH\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_checked_mtrl_animation_interpolator_1.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-2\\files-2.1\\f8ccfb448ba3545203b2c9319e236e39\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "D:\\TUBES MOBILE\\KITA_SEKOLAH\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_halaman_utama_admin.xml.flat",
+        "source": "D:\\TUBES MOBILE\\KITA_SEKOLAH\\app\\src\\main\\res\\layout\\activity_halaman_utama_admin.xml"
     },
     {
         "merged": "D:\\TUBES MOBILE\\KITA_SEKOLAH\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_outlined_stroke_color.xml.flat",

@@ -43,8 +43,12 @@ public class input_produk_admin extends AppCompatActivity {
     private EditText nama_barang, jenis_barang, desc_barang, jumlah_barang, harga_barang;
     private static final int GalleryPick = 1;
     private Uri ImageUri;
+    private Uri ImageUri2;
+    private Uri ImageUri3;
     private String productRandomKey, downloadImageURI;
     private StorageReference ProductImageRef;
+    private StorageReference ProductImageRef2;
+    private StorageReference ProductImageRef3;
     private DatabaseReference ProductsRef;
     float rating;
 
@@ -96,6 +100,20 @@ public class input_produk_admin extends AppCompatActivity {
             }
         });
 
+        gambar2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                OpenGallery();
+            }
+        });
+
+        gambar3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                OpenGallery();
+            }
+        });
+
 
         btn_input_produk.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -117,7 +135,6 @@ public class input_produk_admin extends AppCompatActivity {
         galleryIntent.setAction(Intent.ACTION_GET_CONTENT);
         galleryIntent.setType("image/*");
         startActivityForResult(galleryIntent, GalleryPick);
-
     }
 
     @Override
@@ -129,6 +146,13 @@ public class input_produk_admin extends AppCompatActivity {
             ImageUri = data.getData();
             gambar1.setImageURI(ImageUri);
 
+
+            ImageUri2 = data.getData();
+            gambar2.setImageURI(ImageUri2);
+
+
+            ImageUri3 = data.getData();
+            gambar3.setImageURI(ImageUri3);
 
         }
     }
@@ -185,8 +209,8 @@ public class input_produk_admin extends AppCompatActivity {
 
         productRandomKey = saveCurrentDate + saveCurrentTime;
 
-        final StorageReference filePath = ProductImageRef.child(ImageUri.getLastPathSegment() + productRandomKey + ".jpg");
 
+        final StorageReference filePath = ProductImageRef.child(ImageUri.getLastPathSegment() + productRandomKey + ".jpg");
         final UploadTask uploadTask = filePath.putFile(ImageUri);
 
         uploadTask.addOnFailureListener(new OnFailureListener() {

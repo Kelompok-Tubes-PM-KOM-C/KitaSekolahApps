@@ -17,7 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".input_produk_admin"></activity>
+        <activity
+            android:name=".home_admin_drawer"
+            android:label="@string/title_activity_home_admin_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".input_produk_admin" />
         <activity android:name=".halaman_utama_admin" />
         <activity android:name=".registrasi" />
         <activity android:name=".login" />

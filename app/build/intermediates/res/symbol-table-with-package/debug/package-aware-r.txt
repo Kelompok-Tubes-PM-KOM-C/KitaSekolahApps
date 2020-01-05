@@ -1549,6 +1549,7 @@ id btn_daftar
 id btn_donasi
 id btn_donasibarang
 id btn_donasiuang
+id btn_input_produk
 id btn_konfirmasi
 id btn_konfirmasi2
 id btn_login
@@ -1628,6 +1629,7 @@ id gone
 id group_divider
 id groups
 id guideline
+id hallo
 id hallo_nama
 id hallo_nama2
 id hideable
@@ -1655,6 +1657,7 @@ id input_bank
 id input_descbarang
 id input_donasiuang
 id input_email_reg
+id input_harga
 id input_jam
 id input_jemput
 id input_jenisbarang
@@ -1796,6 +1799,7 @@ id start
 id stretch
 id submenuarrow
 id submit_area
+id switch_admin
 id tab1
 id tab2
 id tab3
@@ -1856,6 +1860,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id tujuan_donasi
+id tv_appbar
 id tv_baranguang
 id tv_baranguang2
 id tv_daftar
@@ -1868,6 +1873,7 @@ id tv_donasiuang
 id tv_hallo
 id tv_harga_2
 id tv_harga_3
+id tv_inputproduk
 id tv_item
 id tv_judul_2
 id tv_judul_3
@@ -1955,6 +1961,8 @@ layout activity_halaman_donasi
 layout activity_halaman_donasi_uang
 layout activity_halaman_pilih_donasi
 layout activity_halaman_utama
+layout activity_halaman_utama_admin
+layout activity_input_produk_admin
 layout activity_lab_scroll
 layout activity_login
 layout activity_main
