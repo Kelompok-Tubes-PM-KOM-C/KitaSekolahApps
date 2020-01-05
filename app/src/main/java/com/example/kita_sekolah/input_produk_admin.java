@@ -57,9 +57,10 @@ public class input_produk_admin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_input_produk_admin);
 
-        Toast.makeText(input_produk_admin.this, CategoryName, Toast.LENGTH_SHORT).show();
-
         CategoryName = getIntent().getExtras().get("kategori").toString();
+
+
+        Toast.makeText(input_produk_admin.this, CategoryName, Toast.LENGTH_SHORT).show();
         ProductImageRef = FirebaseStorage.getInstance().getReference().child("Product Images");
         ProductsRef = FirebaseDatabase.getInstance().getReference().child("Products");
 

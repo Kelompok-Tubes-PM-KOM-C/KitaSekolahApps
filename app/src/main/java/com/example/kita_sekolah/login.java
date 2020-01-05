@@ -161,8 +161,8 @@ public class login extends AppCompatActivity {
 
                             if (parentDbName.equals("Admins")) {
 
-                                Paper.book().write(Prevalent.UserPhoneKey, input);
-                                Paper.book().write(Prevalent.UserPasswordKey, pwd);
+//                                Paper.book().write(Prevalent.UserPhoneKey, input);
+//                                Paper.book().write(Prevalent.UserPasswordKey, pwd);
 
                                 Toast.makeText(login.this, "Login Admin", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();

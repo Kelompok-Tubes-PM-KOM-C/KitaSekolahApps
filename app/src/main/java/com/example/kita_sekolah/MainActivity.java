@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         if (UserPhoneKey != "" && UserPasswordKey != ""){
             if (!TextUtils.isEmpty(UserPhoneKey) && !TextUtils.isEmpty(UserPasswordKey)) {
 
-                if (UserPasswordKey=="12345") {
+                if (UserPasswordKey.equals("12345")) {
                     firebaseDB = "Admins";
                 }
                 else {
