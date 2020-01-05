@@ -1,7 +1,9 @@
 package com.example.kita_sekolah;
 
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -15,6 +17,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 import com.example.kita_sekolah.Model.Users;
 import com.example.kita_sekolah.Prevalent.Prevalent;
 import com.google.firebase.auth.FirebaseAuth;
@@ -24,7 +27,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+
 import io.paperdb.Paper;
+
 
 public class login extends AppCompatActivity {
 
@@ -70,6 +75,7 @@ public class login extends AppCompatActivity {
                     tvDaftar2.setVisibility(View.INVISIBLE);
                     Log.d("You are :", "Checked");
                 }
+                
                 else {
                     btnLogin.setText("Login");
                     parentDbName = "Users";
