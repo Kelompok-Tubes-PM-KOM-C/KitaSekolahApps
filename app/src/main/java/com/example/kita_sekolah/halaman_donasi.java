@@ -1,5 +1,6 @@
 package com.example.kita_sekolah;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
@@ -10,9 +11,11 @@ import com.google.android.material.tabs.TabLayout;
 
 public class halaman_donasi extends AppCompatActivity {
 
+
     private TabLayout tabLayout;
     private AppBarLayout appBarLayout;
     private ViewPager viewPager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
