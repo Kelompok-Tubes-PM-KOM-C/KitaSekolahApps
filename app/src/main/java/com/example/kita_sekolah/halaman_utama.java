@@ -6,8 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.view.MenuItem;
 import android.view.View;
+
 import android.widget.Button;
 import android.widget.FrameLayout;
 
@@ -40,7 +42,6 @@ public class halaman_utama extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_utama);
 
-
         Intent intent = getIntent();
         getnama = intent.getStringExtra("nama");
 
@@ -48,7 +49,6 @@ public class halaman_utama extends AppCompatActivity {
 
         mMainFrame = findViewById(R.id.fl_container);
         mMainNav = findViewById(R.id.bn_main);
-
 
         homeFragment = new HomeFragment();
         searchFragment = new SearchFragment();
@@ -109,4 +109,3 @@ public class halaman_utama extends AppCompatActivity {
 
 
 }
-

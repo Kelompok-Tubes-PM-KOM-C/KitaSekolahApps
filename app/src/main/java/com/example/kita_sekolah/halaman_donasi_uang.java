@@ -19,7 +19,6 @@ public class halaman_donasi_uang extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_donasi_uang);
 
-
         tabLayout = findViewById(R.id.donasiuang_tablayout);
         viewPager = findViewById(R.id.donasiuang_viewpager);
         appBarLayout = findViewById(R.id.appbar);
