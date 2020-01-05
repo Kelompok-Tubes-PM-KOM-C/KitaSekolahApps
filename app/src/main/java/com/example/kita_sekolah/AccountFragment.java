@@ -20,6 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import io.paperdb.Paper;
 
+
 public class AccountFragment extends Fragment {
     View myFragment;
     
