@@ -1680,6 +1680,7 @@ id fl_container
 id forever
 id gambar_2
 id gambar_3
+id gambar_produk
 id ghost_view
 id gone
 id group_divider
@@ -1943,11 +1944,13 @@ id tv_daftar2
 id tv_databarang
 id tv_desc_2
 id tv_desc_3
+id tv_descproduk
 id tv_donasibarang
 id tv_donasiuang
 id tv_hallo
 id tv_harga_2
 id tv_harga_3
+id tv_hargaproduk
 id tv_inputproduk
 id tv_item
 id tv_judul_2
@@ -1955,6 +1958,7 @@ id tv_judul_3
 id tv_lewati
 id tv_lewati2
 id tv_login
+id tv_namaproduk
 id tv_pilihdonasi
 id tv_pilihdonasi2
 id tv_tujuan

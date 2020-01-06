@@ -34,7 +34,6 @@ public class GalleryFragment extends Fragment {
             }
         });
 
-
         gambar_produk = root.findViewById(R.id.gambar_produk);
         tv_namaproduk = root.findViewById(R.id.tv_namaproduk);
         tv_descproduk = root.findViewById(R.id.tv_descproduk);
