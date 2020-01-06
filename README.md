@@ -8,11 +8,11 @@ Kita Sekolah merupakan sebuah aplikasi berbasis mobile yang dapat menjadi layana
 4. PaperBook API
 
 # Kelompok
-Hanna Rabitha Hasni -161402002
-Audry Welvira - 161402068
-Marisa Raudiah - 161402080
-Fahdi Saidi - 161402114
-Sarah Charisa -161402122
+1. Hanna Rabitha Hasni -161402002
+2. Audry Welvira - 161402068
+3. Marisa Raudiah - 161402080
+4. Fahdi Saidi - 161402114
+5. Sarah Charisa -161402122
 
 ## SCREENSHOOT
 ![1-LOAD-02](https://user-images.githubusercontent.com/37629026/71807905-fb75f880-309e-11ea-9b0b-7c63ce1fc187.png)
