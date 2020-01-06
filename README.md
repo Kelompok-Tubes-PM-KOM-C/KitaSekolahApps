@@ -7,6 +7,13 @@ Kita Sekolah merupakan sebuah aplikasi berbasis mobile yang dapat menjadi layana
 3. Database  Firebase  
 4. PaperBook API
 
+# Kelompok
+Hanna Rabitha Hasni -161402002
+Audry Welvira - 161402068
+Marisa Raudiah - 161402080
+Fahdi Saidi - 161402114
+Sarah Charisa -161402122
+
 ## SCREENSHOOT
 ![1-LOAD-02](https://user-images.githubusercontent.com/37629026/71807905-fb75f880-309e-11ea-9b0b-7c63ce1fc187.png)
 ![2-SELAMAT DATANG-03](https://user-images.githubusercontent.com/37629026/71807904-fb75f880-309e-11ea-937e-9a96464ee8ca.png)
